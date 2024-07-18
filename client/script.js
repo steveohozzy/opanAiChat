@@ -74,7 +74,7 @@ const handleSubmit = async (e) => {
 
   loader(mesasgeDiv)
 
-  const response  = await fetch('http://localhost:5200/', {
+  const response  = await fetch('https://opanaichat.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
